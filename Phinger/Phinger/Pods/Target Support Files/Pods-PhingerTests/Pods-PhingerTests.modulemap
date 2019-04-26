@@ -1,0 +1,6 @@
+framework module Pods_PhingerTests {
+  umbrella header "Pods-PhingerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

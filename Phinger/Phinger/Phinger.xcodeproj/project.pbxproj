@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92CBE4EA530BF1B67CD0E240 /* Pods_PhingerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525B921028A1126F84AA58C6 /* Pods_PhingerUITests.framework */; };
+		9F205AED22726BC70029337E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F205AEC22726BC70029337E /* GoogleService-Info.plist */; };
+		9F5259F9223372510017D910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5259F8223372510017D910 /* AppDelegate.swift */; };
+		9F5259FB223372510017D910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5259FA223372510017D910 /* ViewController.swift */; };
+		9F5259FE223372510017D910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5259FC223372510017D910 /* Main.storyboard */; };
+		9F525A01223372510017D910 /* Phinger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F5259FF223372510017D910 /* Phinger.xcdatamodeld */; };
+		9F525A03223372530017D910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F525A02223372530017D910 /* Assets.xcassets */; };
+		9F525A06223372530017D910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F525A04223372530017D910 /* LaunchScreen.storyboard */; };
+		9F525A11223372530017D910 /* PhingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F525A10223372530017D910 /* PhingerTests.swift */; };
+		9F525A1C223372530017D910 /* PhingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F525A1B223372530017D910 /* PhingerUITests.swift */; };
+		9FF9DB2280F5533283CCEBEB /* Pods_Phinger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDF98F14FCBFF1BFF1D6719 /* Pods_Phinger.framework */; };
+		EDE4A0B46E98134E1A789993 /* Pods_PhingerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583C9EB2696CCE229B0C896D /* Pods_PhingerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F525A0D223372530017D910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5259ED223372510017D910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5259F4223372510017D910;
+			remoteInfo = Phinger;
+		};
+		9F525A18223372530017D910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5259ED223372510017D910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5259F4223372510017D910;
+			remoteInfo = Phinger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		310205BE5F9F42F6DD1E6674 /* Pods-PhingerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhingerTests.release.xcconfig"; path = "Target Support Files/Pods-PhingerTests/Pods-PhingerTests.release.xcconfig"; sourceTree = "<group>"; };
+		525B921028A1126F84AA58C6 /* Pods_PhingerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhingerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5641577FD0BF18D9ADEF5A19 /* Pods-PhingerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhingerTests.debug.xcconfig"; path = "Target Support Files/Pods-PhingerTests/Pods-PhingerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		583C9EB2696CCE229B0C896D /* Pods_PhingerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhingerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6425F77D7DAF94DA21E4647A /* Pods-Phinger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phinger.release.xcconfig"; path = "Target Support Files/Pods-Phinger/Pods-Phinger.release.xcconfig"; sourceTree = "<group>"; };
+		75F43231F336D8348D5AA406 /* Pods-PhingerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhingerUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhingerUITests/Pods-PhingerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F205AEC22726BC70029337E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F5259F5223372510017D910 /* Phinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5259F8223372510017D910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F5259FA223372510017D910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F5259FD223372510017D910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F525A00223372510017D910 /* Phinger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Phinger.xcdatamodel; sourceTree = "<group>"; };
+		9F525A02223372530017D910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F525A05223372530017D910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F525A07223372530017D910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F525A0C223372530017D910 /* PhingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F525A10223372530017D910 /* PhingerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhingerTests.swift; sourceTree = "<group>"; };
+		9F525A12223372530017D910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F525A17223372530017D910 /* PhingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F525A1B223372530017D910 /* PhingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhingerUITests.swift; sourceTree = "<group>"; };
+		9F525A1D223372530017D910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5240ADC65D1890E3EC80FE6 /* Pods-Phinger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phinger.debug.xcconfig"; path = "Target Support Files/Pods-Phinger/Pods-Phinger.debug.xcconfig"; sourceTree = "<group>"; };
+		CFDF98F14FCBFF1BFF1D6719 /* Pods_Phinger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phinger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D041C3F2538C81BF34BBFD60 /* Pods-PhingerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhingerUITests.release.xcconfig"; path = "Target Support Files/Pods-PhingerUITests/Pods-PhingerUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F5259F2223372510017D910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF9DB2280F5533283CCEBEB /* Pods_Phinger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F525A09223372530017D910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE4A0B46E98134E1A789993 /* Pods_PhingerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F525A14223372530017D910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CBE4EA530BF1B67CD0E240 /* Pods_PhingerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FDDDAD378487CC37F825E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5240ADC65D1890E3EC80FE6 /* Pods-Phinger.debug.xcconfig */,
+				6425F77D7DAF94DA21E4647A /* Pods-Phinger.release.xcconfig */,
+				5641577FD0BF18D9ADEF5A19 /* Pods-PhingerTests.debug.xcconfig */,
+				310205BE5F9F42F6DD1E6674 /* Pods-PhingerTests.release.xcconfig */,
+				75F43231F336D8348D5AA406 /* Pods-PhingerUITests.debug.xcconfig */,
+				D041C3F2538C81BF34BBFD60 /* Pods-PhingerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F5259EC223372510017D910 = {
+			isa = PBXGroup;
+			children = (
+				9F5259F7223372510017D910 /* Phinger */,
+				9F525A0F223372530017D910 /* PhingerTests */,
+				9F525A1A223372530017D910 /* PhingerUITests */,
+				9F5259F6223372510017D910 /* Products */,
+				22FDDDAD378487CC37F825E2 /* Pods */,
+				D2AAF1050E68B33A89A46BE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F5259F6223372510017D910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F5259F5223372510017D910 /* Phinger.app */,
+				9F525A0C223372530017D910 /* PhingerTests.xctest */,
+				9F525A17223372530017D910 /* PhingerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F5259F7223372510017D910 /* Phinger */ = {
+			isa = PBXGroup;
+			children = (
+				9F5259F8223372510017D910 /* AppDelegate.swift */,
+				9F5259FA223372510017D910 /* ViewController.swift */,
+				9F5259FC223372510017D910 /* Main.storyboard */,
+				9F525A02223372530017D910 /* Assets.xcassets */,
+				9F525A04223372530017D910 /* LaunchScreen.storyboard */,
+				9F525A07223372530017D910 /* Info.plist */,
+				9F205AEC22726BC70029337E /* GoogleService-Info.plist */,
+				9F5259FF223372510017D910 /* Phinger.xcdatamodeld */,
+			);
+			path = Phinger;
+			sourceTree = "<group>";
+		};
+		9F525A0F223372530017D910 /* PhingerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F525A10223372530017D910 /* PhingerTests.swift */,
+				9F525A12223372530017D910 /* Info.plist */,
+			);
+			path = PhingerTests;
+			sourceTree = "<group>";
+		};
+		9F525A1A223372530017D910 /* PhingerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F525A1B223372530017D910 /* PhingerUITests.swift */,
+				9F525A1D223372530017D910 /* Info.plist */,
+			);
+			path = PhingerUITests;
+			sourceTree = "<group>";
+		};
+		D2AAF1050E68B33A89A46BE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFDF98F14FCBFF1BFF1D6719 /* Pods_Phinger.framework */,
+				583C9EB2696CCE229B0C896D /* Pods_PhingerTests.framework */,
+				525B921028A1126F84AA58C6 /* Pods_PhingerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F5259F4223372510017D910 /* Phinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F525A20223372530017D910 /* Build configuration list for PBXNativeTarget "Phinger" */;
+			buildPhases = (
+				1C93C2DC7BA5359D649ABA22 /* [CP] Check Pods Manifest.lock */,
+				9F5259F1223372510017D910 /* Sources */,
+				9F5259F2223372510017D910 /* Frameworks */,
+				9F5259F3223372510017D910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phinger;
+			productName = Phinger;
+			productReference = 9F5259F5223372510017D910 /* Phinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F525A0B223372530017D910 /* PhingerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F525A23223372530017D910 /* Build configuration list for PBXNativeTarget "PhingerTests" */;
+			buildPhases = (
+				A7D1069BDA0BD8A7B924760C /* [CP] Check Pods Manifest.lock */,
+				9F525A08223372530017D910 /* Sources */,
+				9F525A09223372530017D910 /* Frameworks */,
+				9F525A0A223372530017D910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F525A0E223372530017D910 /* PBXTargetDependency */,
+			);
+			name = PhingerTests;
+			productName = PhingerTests;
+			productReference = 9F525A0C223372530017D910 /* PhingerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F525A16223372530017D910 /* PhingerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F525A26223372530017D910 /* Build configuration list for PBXNativeTarget "PhingerUITests" */;
+			buildPhases = (
+				B51210390343469C3B813EA4 /* [CP] Check Pods Manifest.lock */,
+				9F525A13223372530017D910 /* Sources */,
+				9F525A14223372530017D910 /* Frameworks */,
+				9F525A15223372530017D910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F525A19223372530017D910 /* PBXTargetDependency */,
+			);
+			name = PhingerUITests;
+			productName = PhingerUITests;
+			productReference = 9F525A17223372530017D910 /* PhingerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F5259ED223372510017D910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Enrique Perez II";
+				TargetAttributes = {
+					9F5259F4223372510017D910 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+					9F525A0B223372530017D910 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						TestTargetID = 9F5259F4223372510017D910;
+					};
+					9F525A16223372530017D910 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						TestTargetID = 9F5259F4223372510017D910;
+					};
+				};
+			};
+			buildConfigurationList = 9F5259F0223372510017D910 /* Build configuration list for PBXProject "Phinger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F5259EC223372510017D910;
+			productRefGroup = 9F5259F6223372510017D910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F5259F4223372510017D910 /* Phinger */,
+				9F525A0B223372530017D910 /* PhingerTests */,
+				9F525A16223372530017D910 /* PhingerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F5259F3223372510017D910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F525A06223372530017D910 /* LaunchScreen.storyboard in Resources */,
+				9F205AED22726BC70029337E /* GoogleService-Info.plist in Resources */,
+				9F525A03223372530017D910 /* Assets.xcassets in Resources */,
+				9F5259FE223372510017D910 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F525A0A223372530017D910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F525A15223372530017D910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C93C2DC7BA5359D649ABA22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Phinger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D1069BDA0BD8A7B924760C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhingerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B51210390343469C3B813EA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhingerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F5259F1223372510017D910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5259FB223372510017D910 /* ViewController.swift in Sources */,
+				9F5259F9223372510017D910 /* AppDelegate.swift in Sources */,
+				9F525A01223372510017D910 /* Phinger.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F525A08223372530017D910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F525A11223372530017D910 /* PhingerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F525A13223372530017D910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F525A1C223372530017D910 /* PhingerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F525A0E223372530017D910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5259F4223372510017D910 /* Phinger */;
+			targetProxy = 9F525A0D223372530017D910 /* PBXContainerItemProxy */;
+		};
+		9F525A19223372530017D910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5259F4223372510017D910 /* Phinger */;
+			targetProxy = 9F525A18223372530017D910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F5259FC223372510017D910 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F5259FD223372510017D910 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F525A04223372530017D910 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F525A05223372530017D910 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F525A1E223372530017D910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F525A1F223372530017D910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F525A21223372530017D910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5240ADC65D1890E3EC80FE6 /* Pods-Phinger.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNYLA569P;
+				INFOPLIST_FILE = Phinger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VRE.Phinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9F525A22223372530017D910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6425F77D7DAF94DA21E4647A /* Pods-Phinger.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNYLA569P;
+				INFOPLIST_FILE = Phinger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VRE.Phinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9F525A24223372530017D910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5641577FD0BF18D9ADEF5A19 /* Pods-PhingerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNYLA569P;
+				INFOPLIST_FILE = PhingerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VRE.PhingerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phinger.app/Phinger";
+			};
+			name = Debug;
+		};
+		9F525A25223372530017D910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310205BE5F9F42F6DD1E6674 /* Pods-PhingerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNYLA569P;
+				INFOPLIST_FILE = PhingerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VRE.PhingerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phinger.app/Phinger";
+			};
+			name = Release;
+		};
+		9F525A27223372530017D910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F43231F336D8348D5AA406 /* Pods-PhingerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNYLA569P;
+				INFOPLIST_FILE = PhingerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VRE.PhingerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Phinger;
+			};
+			name = Debug;
+		};
+		9F525A28223372530017D910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D041C3F2538C81BF34BBFD60 /* Pods-PhingerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNYLA569P;
+				INFOPLIST_FILE = PhingerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VRE.PhingerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Phinger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F5259F0223372510017D910 /* Build configuration list for PBXProject "Phinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F525A1E223372530017D910 /* Debug */,
+				9F525A1F223372530017D910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F525A20223372530017D910 /* Build configuration list for PBXNativeTarget "Phinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F525A21223372530017D910 /* Debug */,
+				9F525A22223372530017D910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F525A23223372530017D910 /* Build configuration list for PBXNativeTarget "PhingerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F525A24223372530017D910 /* Debug */,
+				9F525A25223372530017D910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F525A26223372530017D910 /* Build configuration list for PBXNativeTarget "PhingerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F525A27223372530017D910 /* Debug */,
+				9F525A28223372530017D910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F5259FF223372510017D910 /* Phinger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F525A00223372510017D910 /* Phinger.xcdatamodel */,
+			);
+			currentVersion = 9F525A00223372510017D910 /* Phinger.xcdatamodel */;
+			path = Phinger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F5259ED223372510017D910 /* Project object */;
+}
